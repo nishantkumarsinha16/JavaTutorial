@@ -1,0 +1,18 @@
+package com.opps.concept;
+
+public class Method2class extends Method {
+
+	protected void login() {
+		System.out.println("Nishant");
+		
+		Method m new Method2class()
+		
+	}
+
+	public void signIn() {
+		this.login();
+		super.login();
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package com.opps.concept;
+
+public class Method extends Method2class {
+
+	
+	public void parent() {	
+		//super.parent();
+		//System.out.println("child");
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}

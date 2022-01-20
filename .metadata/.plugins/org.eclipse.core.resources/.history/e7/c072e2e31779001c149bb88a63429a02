@@ -1,0 +1,19 @@
+package com.opps.concept;
+
+public class DataType {
+
+	public static void main(String[] args) {
+		// Without main method we can't invoke any class or method.
+		// To run withod main method we have to user Testng/junit.
+		
+		Method3 m3=new Method3();
+		//m3.method1();
+		//m3.method1("Nishant");
+		//m3.method1("Nishant", 20);
+		
+		m3.method1(120);
+		
+		
+
+	}
+}

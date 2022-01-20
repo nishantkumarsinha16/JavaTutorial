@@ -1,0 +1,15 @@
+package com.opps.concept;
+
+public class Method2class {
+
+	private String chrome = "chrome";
+	private String mozila = "mozilla";
+	private static int myNum = 5;
+
+
+	protected void parent() {
+		System.out.println("parent");
+
+	}
+
+}

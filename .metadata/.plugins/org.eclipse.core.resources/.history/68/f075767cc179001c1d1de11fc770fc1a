@@ -1,0 +1,19 @@
+package com.opps.concept;
+
+public class Variable {	
+	
+	public String getImYogita() {
+		return imYogita;
+	}	
+
+	public String getImNishant() {
+		return imNishant;
+	}
+	
+	
+	private String imYogita = "Yogita";
+	private String imNishant = "Nishant";
+
+	
+
+}

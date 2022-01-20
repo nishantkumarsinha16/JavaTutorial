@@ -1,0 +1,24 @@
+package com.opps.concept;
+
+public class Method {
+
+	
+	protected void login() {
+		System.out.println("yogita");
+
+	}
+	
+	public void executequery(String str,int num,float flot,double doub) {
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

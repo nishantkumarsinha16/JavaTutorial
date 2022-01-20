@@ -1,0 +1,29 @@
+package com.opps.concept;
+
+public class Method {
+
+	
+	protected void login() {
+		System.out.println("yogita");
+
+	}
+	
+	public static void executequery(String str,int num) {		
+		webelement element=driver.findelement(By.xpath(str));
+		element.sendkey(num);
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

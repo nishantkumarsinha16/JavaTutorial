@@ -1,0 +1,16 @@
+package com.opps.concept;
+
+public interface class Loan{	
+
+	public void login() {
+		System.out.println(Variable.getImYogita());	
+
+	}
+	
+	public abstract void loan();
+	
+	
+	
+	
+
+}

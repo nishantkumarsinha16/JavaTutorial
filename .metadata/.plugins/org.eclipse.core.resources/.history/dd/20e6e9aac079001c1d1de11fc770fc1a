@@ -1,0 +1,19 @@
+package com.opps.concept;
+
+public class Method2class extends Method {
+	private String myName = "Yogita";
+
+	protected void login() {
+		System.out.println("Nishant");
+		
+		
+		
+	}
+
+	public void signIn() {
+		this.login();
+		super.login();
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.opps.concept;
+
+public class Method2class extends Method {
+	
+
+	protected void login() {
+		System.out.println(getImYogita);
+		
+		
+		
+	}
+
+	public void signIn() {
+		this.login();
+		super.login();
+
+	}
+
+}

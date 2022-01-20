@@ -1,0 +1,13 @@
+package com.opps.concept;
+
+public class Method {
+
+	private String myName = "Nishant";
+
+	protected void login() {
+		System.out.println(myName);
+		
+
+	}
+
+}

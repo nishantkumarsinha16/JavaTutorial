@@ -1,0 +1,12 @@
+package com.opps.concept;
+
+public abstract class Method{	
+
+	public static void login() {
+		System.out.println(Variable.getImYogita());		
+
+	}
+	
+	
+
+}

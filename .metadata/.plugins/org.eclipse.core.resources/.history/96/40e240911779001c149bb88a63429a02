@@ -1,0 +1,53 @@
+package com.opps.concept;
+
+public class Method3 {
+
+	private String chrome = "chrome";
+	private String mozila = "mozilla";
+	private int myNum = 5;
+
+	public void method1() {
+		System.out.println("method1 without parameter");
+
+	}
+
+	public void method1(int num) {
+		System.out.println("method1 with int parameter" + num);
+
+		if (!(myNum == 6)) {
+			System.out.println("No");
+		} else {
+
+			System.out.println("Number not match");
+
+		}
+
+	}
+
+	public void method1(String str) {
+
+		System.out.println("method1 with str parameter: " + str);
+
+		/*
+		 * if (chrome.contains(mozila)) { System.out.println("chrome");
+		 * 
+		 * } else if (mozila.contains(chrome)) { System.out.println("mozila-1");
+		 * 
+		 * }
+		 * 
+		 * else if (mozila.contains(chrome)) { System.out.println("mozila-2");
+		 * 
+		 * } else {
+		 * 
+		 * System.out.println("No data found!"); }
+		 */
+
+	}
+
+	public void method1(String str, int nums) {
+		System.out.println("method1 with str parameter: " + str);
+		System.out.println("method1 with int parameter: " + nums);
+
+	}
+
+}

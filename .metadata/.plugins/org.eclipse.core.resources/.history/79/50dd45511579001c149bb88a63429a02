@@ -1,0 +1,64 @@
+package com.opps.concept;
+
+public class DataType {
+	
+	String chrome = "chrome"; 
+	String mozila = "mozilla"; 
+
+	public void method1() {
+
+	}
+
+	public void method1(int num) {
+
+	}
+
+	public void method1(String str) {
+		
+		if (chrome.contains(mozila)) {
+			System.out.println("chrome");
+			System.out.println(myNum + myFloatNum);
+
+		} else if (mozila.contains(chrome)) {
+			System.out.println("mozila-1");
+			System.out.println(myNum);
+		}
+
+		else if (mozila.contains(chrome)) {
+			System.out.println("mozila-2");
+			System.out.println(myNum);
+
+		} else {
+
+			System.out.println("No data found!");
+		}
+
+
+	}
+
+	public void method1(String num, int nums) {
+		
+
+	}
+
+	public static void main(String[] args) {
+		// Without main method we can't invoke any class or method.
+		// To run withod main method we have to user Testng/junit.
+
+		int myNum = 5; // Integer (whole number)
+		float myFloatNum = 5.99f; // Floating point number
+		char myLetter = 'D'; // Character
+		boolean myBool = false; // Boolean
+		
+
+		
+		if (!(myNum == 6)) {
+			System.out.println("No");
+		} else {
+
+			System.out.println("Number not match");
+
+		}
+
+	}
+}

@@ -1,0 +1,21 @@
+package com.opps.concept;
+
+public class Method {
+
+	
+	protected void parent() {
+		System.out.println("child");
+
+	}
+	
+	public void message() {		
+		parent();
+	}
+	
+	
+	
+	
+	
+	
+
+}

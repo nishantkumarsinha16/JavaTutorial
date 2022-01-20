@@ -1,0 +1,22 @@
+package com.opps.concept;
+
+public class Method extends Method2class {
+
+	
+	private void parent() {
+		System.out.println("child");
+
+	}
+	
+	public static void message() {
+		Method met=Method();
+		parent();
+	}
+	
+	
+	
+	
+	
+	
+
+}

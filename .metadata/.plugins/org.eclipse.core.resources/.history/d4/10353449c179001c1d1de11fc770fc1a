@@ -1,0 +1,12 @@
+package com.opps.concept;
+
+public class Method {
+	public String imYogita = "Yogita";	
+
+	protected void login() {
+		System.out.println(imYogita);
+		
+
+	}
+
+}

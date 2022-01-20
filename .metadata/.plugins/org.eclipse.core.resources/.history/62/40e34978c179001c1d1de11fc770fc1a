@@ -1,0 +1,10 @@
+package com.opps.concept;
+
+public class Variable {	
+	
+	private String imYogita = "Yogita";
+	private String imNishant = "Nishant";
+
+	
+
+}

@@ -1,0 +1,31 @@
+package com.opps.concept;
+
+public class Method2class extends Method {
+	
+
+	public void login() {
+		System.out.println(Variable.getImYogita());
+		
+		
+		
+	}
+
+	public void signIn() {
+		
+	
+		
+		this.login();
+		super.login();
+
+	}
+
+	@Override
+	public void Bank() {
+		System.out.println("Apple");
+		
+	}
+
+
+
+
+}

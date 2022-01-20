@@ -1,0 +1,39 @@
+package com.opps.concept;
+
+public class Method2class extends Bank implements Loan {
+	
+
+	public void login() {
+		System.out.println(Variable.getImYogita());
+		
+		
+		
+	}
+
+	public void signIn() {
+		
+		Loan.loginToPage();
+		
+	
+		
+		this.login();
+		super.login();
+
+	}
+
+	@Override
+	public void bank() {
+		System.out.println("HDFC");
+		
+	}
+
+	@Override
+	public void loan() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+
+}

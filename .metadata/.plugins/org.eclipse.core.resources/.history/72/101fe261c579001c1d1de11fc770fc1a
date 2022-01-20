@@ -1,0 +1,16 @@
+package com.opps.concept;
+
+public abstract class Method{	
+
+	public void login() {
+		System.out.println(Variable.getImYogita());	
+
+	}
+	
+	public abstract void Bank();
+	
+	
+	
+	
+
+}

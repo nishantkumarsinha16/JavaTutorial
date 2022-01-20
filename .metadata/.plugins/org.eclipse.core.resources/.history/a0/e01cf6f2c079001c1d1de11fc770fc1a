@@ -1,0 +1,12 @@
+package com.opps.concept;
+
+public class Variable {
+	
+	private String chrome = "chrome";
+	private String mozila = "mozilla";
+	private static int myNum = 5;
+	private String myName = "Yogita";
+
+	
+
+}

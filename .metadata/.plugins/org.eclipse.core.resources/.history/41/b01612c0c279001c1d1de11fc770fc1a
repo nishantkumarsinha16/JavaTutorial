@@ -1,0 +1,23 @@
+package com.opps.concept;
+
+public class Method2class {
+	
+
+	protected void login() {
+		System.out.println(Variable.getImYogita());
+		
+		
+		
+	}
+
+	public void signIn() {
+		
+		Method m=new Method();
+		m.login();
+		
+		this.login();
+	//	super.login();
+
+	}
+
+}
